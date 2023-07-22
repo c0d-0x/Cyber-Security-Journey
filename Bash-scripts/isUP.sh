@@ -11,5 +11,5 @@ else
         fi
     done
 fi
-
+# This script discover live-host in a network with 'ping' 
         
