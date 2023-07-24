@@ -6,7 +6,7 @@ else
     for x in $(seq 1 254)
     do
          _ip_strg=$( ping -c 1  $1.$x | grep 64 | cut -d ' ' -f 4 | tr -d : )
-        if [ "$_ip_strg" != "" ]; then
+        if [ "$_ip_strg" == "$1.$x" ]; then
             echo "$_ip_strg is up!!"
         fi
     done
