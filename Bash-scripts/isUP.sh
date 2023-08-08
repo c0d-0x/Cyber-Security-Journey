@@ -1,4 +1,4 @@
-#!/bin/bash
+  #!/bin/bash
 if [ "$1" == "" ]; then
     echo "Enter an IP"
     echo "Syntax: ./isUP.sh 192.168.0 "
