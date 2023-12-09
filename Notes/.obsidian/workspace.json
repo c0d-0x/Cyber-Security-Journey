@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a9b6848e519bee57",
+        "id": "7f80627ea8cce113",
         "type": "tabs",
         "children": [
           {
-            "id": "3aed48481b5dd321",
+            "id": "f06e3f5a5ee34522",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md"
+              }
             }
           }
         ]
@@ -139,16 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3aed48481b5dd321",
+  "active": "64349ac112739430",
   "lastOpenFiles": [
+    "Practical Ethical Hacking (TCM)/Images/smbclient.png",
+    "Practical Ethical Hacking (TCM)/Boxes/Boxes.md",
+    "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
+    "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
+    "Practical Ethical Hacking (TCM)/Images/rpcinfo.png",
+    "Practical Ethical Hacking (TCM)/Images/kioptrix-nmap.png",
+    "Practical Ethical Hacking (TCM)/Boxes",
+    "www.hunter.oi.md",
+    "hunter.oi.md",
+    "phonebook.cz.md",
+    "Practical Ethical Hacking (TCM)/II. Linux.md",
+    "Practical Ethical Hacking (TCM)/Subtitles/Nmap.md",
+    "Practical Ethical Hacking (TCM)/III. Python.md",
+    "Practical Ethical Hacking (TCM)/Subtitles/Useful Commands and Tools.md",
+    "Practical Ethical Hacking (TCM)/Subtitles/Some Common Network Ports.md",
+    "Practical Ethical Hacking (TCM)/0. Introduction.md",
+    "Practical Ethical Hacking (TCM)/I. Networking Refresher.md",
     "Daily Notes/Jul 02, 2023.md",
     "Daily Notes/Jun 28, 2023.md",
     "Pasted image 20230628080925.png",
     "Pasted image 20230628075936.png",
     "Pasted image 20230628075643.png",
     "Pasted image 20230628075425.png",
-    "Practical Ethical Hacking (TCM)/I. Networking Refresher.md",
-    "Practical Ethical Hacking (TCM)/0. Introduction.md",
     "Practical Ethical Hacking (TCM)",
     "Daily Notes"
   ]
