@@ -52,7 +52,7 @@
 ## Research for Exploits:
 +  mod_ssl/2.8.4:
 	+ OpenFuck-exploitdb: https://www.exploit-db.com/exploits/47080 
-	+ OpenFuck-git:  https://www.exploit-db.com/exploits/47080
+	+ OpenFuck-git:  et 
 + Samba 2.2.1a port 139
 	+ Vulnerable to remote buffer overflow:  
 		+ git: https://github.com/piyush-saurabh/exploits/blob/master/smb-exploit.c
