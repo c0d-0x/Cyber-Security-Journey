@@ -196,7 +196,8 @@ int pthread_join(pthread_t thread, void **retval);
 2. **Initialization:**
     
 ```c
-    int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t *attr);
+pthreat_mutex_t mutex;
+int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr);
 ```
 
 - Initialises a mutex variable before use.
@@ -239,7 +240,69 @@ int pthread_join(pthread_t thread, void **retval);
 - Avoid deadlocks by acquiring locks in a consistent order across multiple threads.
 - Consider using error checking for mutex operations to handle potential issues.
 - Choose appropriate mutex attributes based on usage patterns (e.g., recursive mutexes for re-entrant calls).
+#### Pthread Condition Variables and functions
+**Purpose:**
 
+- Condition variables provide a way for threads to synchronise based on specific conditions rather than just mutual exclusion.
+- They allow threads to wait for certain events or states to occur before proceeding with their execution.
+
+**Common Functions:**
+
+2. **Initialisation:**
+
+    ```C
+    int pthread_cond_init(pthread_cond_t *cond, const pthread_condattr_t *attr);
+    ```
+    
+    - Initialises a condition variable before use.
+    - `cond`: Pointer to the condition variable to be initialised.
+    - `attr`: Optional attributes to control the behaviour (can be NULL for defaults).
+    
+4. **Waiting:**
+    
+    
+    
+    ```C
+    int pthread_cond_wait(pthread_cond_t *cond, pthread_mutex_t *mutex);
+    ```
+    
+    - Atomically unlocks the specified mutex and blocks the calling thread on the condition variable.
+    - The thread will remain blocked until another thread signals the condition variable.
+    - Upon being signaled, the thread reacquires the mutex before returning.
+    
+6. **Signaling:**
+  
+    ```C
+    int pthread_cond_signal(pthread_cond_t *cond);
+    ```
+    
+    - Wakes up at least one thread waiting on the condition variable.
+    - If multiple threads are waiting, the choice of which thread to wake is generally arbitrary.
+    
+8. **Broadcasting:**
+    
+    ```c
+    int pthread_cond_broadcast(pthread_cond_t *cond);
+    ```
+
+	- Wakes up all threads waiting on the condition variable.
+    
+10. **Destruction:**
+
+    ```c
+    int pthread_cond_destroy(pthread_cond_t *cond);
+    ```
+
+    - Destroys a condition variable when it's no longer needed, freeing associated resources.
+    
+
+**Key Points:**
+
+- Condition variables are always used in conjunction with mutexes to ensure proper synchronisation.
+- The mutex protects the shared data or condition being checked, while the condition variable handles thread signaling and waiting.
+- Avoid spurious wakeups (threads waking up without being signaled) by rechecking the condition within a loop after `pthread_cond_wait()`.
+- Use `pthread_cond_broadcast()` when multiple threads need to be notified of a change.
+- Remember to initialise and destroy condition variables correctly to avoid resource leaks.
 #### Remember:
 
 - Include the `pthread.h` header file for using pthreads functions.

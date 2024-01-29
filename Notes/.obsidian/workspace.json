@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
+                "file": "Systems Programming/Operating Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
+                "file": "Systems Programming/Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
+                "file": "Systems Programming/Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md"
+                "file": "Systems Programming/Operating Systems.md"
               }
             }
           }
@@ -186,11 +186,11 @@
   },
   "active": "dd4c3d0a6b9201e8",
   "lastOpenFiles": [
+    "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
     "Practical Ethical Hacking (TCM)/Linux Notes/II. Bash-scripting.md",
     "Practical Ethical Hacking (TCM)/Python/Data Types.md",
     "Practical Ethical Hacking (TCM)/Python/Object Oriented Programming.md",
     "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
-    "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
     "Systems Programming/Operating Systems.md",
     "Pasted image 20240114112700.png",
     "Pasted image 20240114112530.png",
