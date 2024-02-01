@@ -1,3 +1,23 @@
+An operating system (OS) is a complex piece of software that acts as the intermediary between a computer's hardware and its applications. Imagine it as a highly skilled translator who speaks both the hardware's language (machine code) and the applications' language (high-level programming languages).
+
+#### A breakdown of the OS's low-level workings:
+
+**1. Kernel:** The brain of the OS, the kernel is always running in the background, managing essential tasks like:
+
+- **Memory management:** Allocates and reclaims memory for different programs to run smoothly.
+- **Process scheduling:** Decides which program gets to use the CPU at any given time, ensuring fair and efficient resource utilisation.
+- **Device drivers:** Acts as the interpreter between the hardware and the applications, allowing programs to interact with peripherals like printers, disks, and network interfaces.
+- **Interrupt handling:** Deals with sudden events like keystrokes, mouse clicks, or network traffic, ensuring the system responds promptly.
+
+**2. System calls:** Applications communicate with the kernel through system calls, which are like requests for specific services. For example, when you click a file, the application makes a system call to the kernel to open it.
+
+**3. Hardware abstraction layer (HAL):** The HAL hides the intricate details of the specific hardware from the kernel, allowing the OS to work on different types of computers without needing major changes.
+
+**4. File system:** Organises and manages data storage on your hard drive or SSD, providing a structured way for applications to access and store files.
+
+**5. Security:** The OS implements various security measures to protect your system from unauthorised access, malware, and other threats.
+
+![[Pasted image 20240131122901.png]]
 
 ![[Pasted image 20240112122514.png]]
 
@@ -9,9 +29,9 @@
 ![[Pasted image 20240112124801.png]]
 
 ## Four Fundamental Concepts of an OS
-### Threads: Execution Context
+###  a. Threads: Execution Context
 + Linear Execution context
-+ It's a single unique execution context  with a program counter, Program counters, Registers, Execution flags, stack and a memory space.
++ It's a single unique execution context  with program counter Registers, Execution flags, a stack and a memory space.
 - **Lightweight processes:** They share the same memory space and resources as the parent process, making them less resource-intensive than creating separate processes.
 - **Concurrent execution:** The operating system can schedule threads to run seemingly simultaneously, improving responsiveness and performance.
 
@@ -180,7 +200,7 @@ int pthread_join(pthread_t thread, void **retval);
 - Use `pthread_join()` to ensure proper resource cleanup and avoid potential memory leaks.
 - If a thread is not joined, its resources might not be released until the entire process terminates.
 - Joining a thread guarantees that its return value is retrieved.
-- Consider using `pthread_detach()` for threads that don't require synchronization or return values.
+- Consider using `pthread_detach()` for threads that don't require synchronisation or return values.
     
 ![[Pasted image 20240114112530.png]]
 
@@ -309,22 +329,29 @@ int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr)
 - Link your program with the pthreads library during compilation (e.g., `-lpthread`).
 - Pthreads programming requires careful attention to synchronisation and coordination to avoid race conditions and deadlocks
 
-### Address Spaces
+### b. Address Spaces
 + A set of memory addresses accessible to a program with  read or write permissions
 ![[Pasted image 20240112132354.png]]
 #### Memory Protection
 
++  Memory protection is a mechanism that controls how processes (running programs) can access memory in a computer.
+- It prevents processes from:
+    - Accessing memory that doesn't belong to them, potentially corrupting other programs or the OS itself.
+    - Executing code in data segments, preventing malicious activity.
+    - Modifying critical system memory, preventing crashes or unauthorised system modifications.
+    
+##### Some Bassic forms of memory protection
 + B&B ii base on hardware feature; using hardware to set the base and the bound of a memory space.
-![[Pasted image 20240112133746.png]]
+	![[Pasted image 20240112133746.png]]
 
 + Hardware Relocation
-![[Pasted image 20240112134338.png]]
+	![[Pasted image 20240112134338.png]]
 
-![[Pasted image 20240112151155.png]]
+	![[Pasted image 20240112151155.png]]
 
-![[Pasted image 20240114083025.png]]
+	![[Pasted image 20240114083025.png]]
 
-### Processes 
+### c. Processes 
 #### What is a Process?
 + A protected address space with one or more threads.
 + A process is a restrictive execution environment with execution rights
@@ -353,14 +380,14 @@ int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr)
 - **Creation:** The operating system creates new processes using a process creation system call (e.g., `fork()` in Unix-like systems).
 - **Scheduling:** The operating system decides which ready process to run next, using scheduling algorithms (e.g., round-robin, priority-based).
 - **Context switching:** The operating system switches between processes, saving the state of the current process and restoring the state of the next process.
-- **Synchronization:** Processes may need to coordinate their actions using mechanisms like semaphores, mutexes, and condition variables to prevent race conditions and ensure data consistency.
+- **Synchronisation:** Processes may need to coordinate their actions using mechanisms like semaphores, mutexes, and condition variables to prevent race conditions and ensure data consistency.
 - **Communication:** Processes can communicate with each other through various methods, such as shared memory, message passing, or pipes.
 - **Termination:** A process can terminate voluntarily or due to an error. The operating system releases its resources and cleans up.
 
 **Importance of Processes:**
 
-- **Multitasking:** Processes enable multiple programs to run simultaneously, improving system responsiveness and resource utilization.
-- **Modularity:** Processes provide a way to structure programs into independent units, promoting code maintainability and reusability.
+- **Multitasking:** Processes enable multiple programs to run simultaneously, improving system responsiveness and resource utilisation.
+- **Modularity:** Processes provide a way to structure programs into independent units, promoting code maintainability and re-usability.
 - **Protection:** Process isolation safeguards system integrity and prevents errors in one process from affecting others.
 
 **Common Process Management Scenarios in C:**
