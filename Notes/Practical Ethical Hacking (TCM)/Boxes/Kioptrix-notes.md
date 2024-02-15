@@ -66,3 +66,5 @@
 + dirbuster and gobuster for http(s) enumeration
 + metasploit for smb enumeration and exploitation
 + smbclient
++ hydra for brute-forcing accounts
++ foxy proxy https://drive.google.com/drive/folders/1xJy4ozXaahXvjbgTeJVWyY-eUGIKgCj1

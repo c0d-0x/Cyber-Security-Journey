@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62f5af6c571f2a20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Practical Ethical Hacking (TCM)/Boxes/B0X-Blue.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Systems Programming/Operating Systems.md"
+                "file": "Practical Ethical Hacking (TCM)/IV. Recognisance.md"
               }
             }
           }
@@ -186,14 +198,24 @@
   },
   "active": "dd4c3d0a6b9201e8",
   "lastOpenFiles": [
+    "Practical Ethical Hacking (TCM)/Subtitles/Keywords.md",
+    "Practical Ethical Hacking (TCM)/Subtitles/Future Projects.md",
+    "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
+    "Systems Programming/Sub-Topics/Error Handling.md",
+    "Systems Programming/Linux Systems Programming.md",
+    "Systems Programming/Sub-Topics/Common C Libraries.md",
+    "Practical Ethical Hacking (TCM)/Boxes/B0X-Blue.md",
+    "Pasted image 20240206144522.png",
+    "Pasted image 20240206144157.png",
+    "Pasted image 20240206143718.png",
+    "Pasted image 20240206141242.png",
+    "Untitled.md",
+    "Systems Programming/Operating Systems.md",
     "Recording 20240131123301.webm",
     "Recording 20240131123255.webm",
     "Recording 20240131123232.webm",
     "Recording 20240131123250.webm",
-    "Systems Programming/Operating Systems.md",
     "Systems Programming/Images/Pasted image 20240131122901.png",
-    "Systems Programming/Linux Systems Programming.md",
-    "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
     "Practical Ethical Hacking (TCM)/Linux Notes/II. Bash-scripting.md",
     "Practical Ethical Hacking (TCM)/Python/Data Types.md",
     "Practical Ethical Hacking (TCM)/Python/Object Oriented Programming.md",
@@ -203,14 +225,8 @@
     "Systems Programming/Images/Pasted image 20240114105859.png",
     "Systems Programming/Images/Pasted image 20240114093952.png",
     "Pasted image 20240114093844.png",
-    "Systems Programming/Images/Pasted image 20240114093005.png",
-    "Systems Programming/Images/Pasted image 20240114083025.png",
-    "Systems Programming/Images/Pasted image 20240112153302.png",
-    "Systems Programming/Images/Pasted image 20240112152758.png",
     "Systems Programming/Sub-Topics/File IO.md",
     "Systems Programming/Images",
-    "Systems Programming/Sub-Topics/Error Handling.md",
-    "Systems Programming/Sub-Topics/Common C Libraries.md",
     "Systems Programming/Sub-Topics/Error Handling",
     "Systems Programming/Sub-Topics",
     "Systems Programming",
@@ -227,9 +243,6 @@
     "Practical Ethical Hacking (TCM)/Subtitles/Some Common Network Ports.md",
     "Practical Ethical Hacking (TCM)/0. Introduction.md",
     "Practical Ethical Hacking (TCM)/I. Networking Refresher.md",
-    "Daily Notes/Jul 02, 2023.md",
-    "Daily Notes/Jun 28, 2023.md",
-    "Practical Ethical Hacking (TCM)",
-    "Daily Notes"
+    "Practical Ethical Hacking (TCM)"
   ]
 }
