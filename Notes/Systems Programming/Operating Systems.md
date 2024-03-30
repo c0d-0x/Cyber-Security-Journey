@@ -340,7 +340,7 @@ int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr)
     - Executing code in data segments, preventing malicious activity.
     - Modifying critical system memory, preventing crashes or unauthorised system modifications.
     
-##### Some Bassic forms of memory protection
+##### Some Basic forms of memory protection
 + B&B ii base on hardware feature; using hardware to set the base and the bound of a memory space.
 	![[Pasted image 20240112133746.png]]
 
@@ -423,9 +423,10 @@ int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr)
 4. **Communicating Between Processes:**
     
     - **Pipes:** Used for unidirectional communication between processes.
+    - FIFOs: Uing named piped.
     - **Shared memory:** Allows processes to share a common memory region for data exchange.
     - **Message queues:** Facilitate message-based communication between processes.
-    
+  
 
 **Remember:**
 
