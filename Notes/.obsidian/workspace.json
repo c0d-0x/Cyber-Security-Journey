@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Programming/Linux Systems Programming.md",
+                "file": "Systems Programming/Sub-Topics/Linux Systems Programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,12 +57,8 @@
             "id": "62f5af6c571f2a20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Systems Programming/Operating Systems.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -144,7 +140,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +156,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,9 +177,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Systems Programming/Operating Systems.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -208,21 +200,25 @@
   },
   "active": "62f5af6c571f2a20",
   "lastOpenFiles": [
-    "Systems Programming/Linux Systems Programming.md",
-    "Systems Programming/Operating Systems.md",
     "Systems Programming/Sub-Topics/File IO.md",
-    "Practical Ethical Hacking (TCM)/Boxes/B0X-Blue.md",
     "Systems Programming/Sub-Topics/Common C Libraries.md",
+    "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
+    "Practical Ethical Hacking (TCM)/II. Linux.md",
+    "Practical Ethical Hacking (TCM)/I. Networking Refresher.md",
+    "Practical Ethical Hacking (TCM)/0. Introduction.md",
+    "Systems Programming/Operating Systems.md",
+    "Systems Programming/Sub-Topics/Error Handling.md",
+    "Systems Programming/Sub-Topics/Linux Systems Programming.md",
+    "Practical Ethical Hacking (TCM)/III. Python.md",
+    "Practical Ethical Hacking (TCM)/Boxes/B0X-Blue.md",
     "Systems Programming/C For Everybody",
     "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206141242.png",
     "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206144522.png",
     "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206144157.png",
     "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206143718.png",
-    "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
     "Practical Ethical Hacking (TCM)/Subtitles/Keywords.md",
     "Practical Ethical Hacking (TCM)/Subtitles/Future Projects.md",
     "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
-    "Systems Programming/Sub-Topics/Error Handling.md",
     "Untitled.md",
     "Recording 20240131123301.webm",
     "Recording 20240131123255.webm",
@@ -247,11 +243,8 @@
     "www.hunter.oi.md",
     "hunter.oi.md",
     "phonebook.cz.md",
-    "Practical Ethical Hacking (TCM)/II. Linux.md",
     "Practical Ethical Hacking (TCM)/Subtitles/Nmap.md",
-    "Practical Ethical Hacking (TCM)/III. Python.md",
     "Practical Ethical Hacking (TCM)/Subtitles/Useful Commands and Tools.md",
-    "Practical Ethical Hacking (TCM)/Subtitles/Some Common Network Ports.md",
-    "Practical Ethical Hacking (TCM)/0. Introduction.md"
+    "Practical Ethical Hacking (TCM)/Subtitles/Some Common Network Ports.md"
   ]
 }
