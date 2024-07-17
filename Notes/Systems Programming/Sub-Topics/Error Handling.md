@@ -1,9 +1,9 @@
 # Error Handling Libraries:
 
 Expand error handling capabilities: C doesn't have built-in exception handling like some other languages, but libraries provide enhanced error handling features.
-## <errono.h>
+## `<errono.h>`
 
-### **errno:**
+### **`errno`:**
 
 - **Global variable:** It's a global integer variable defined in `<errno.h>` that stores the error code of the most recent system call or library function that failed.
 - **Error codes:** Each error code represents a specific type of error (e.g., file not found, permission denied, invalid argument).
@@ -30,18 +30,18 @@ int main() {
 
 ```
 
-### perror():
+### `perror()`:
 
 Prints a descriptive error message to stderr.
 Combines the user-provided message with the error message corresponding to errno. 
 found in `<stdio.h>` library. 
 
-### strerror():
+### `strerror()`:
 
 Converts an errno value to a human-readable error message string.
 found in `<strings.h>` library. 
 
-### errx() and warnx():
+### `errx()` and `warnx()`:
 
 `errx()` and `warnx()` are functions from the `<err.h>` header in C that offer a concise and controlled way to handle errors and warnings in your programs.
 
@@ -66,7 +66,7 @@ found in `<strings.h>` library.
 
 **Here's a breakdown of their usage:**
 
-**1. errx():**
+**1. `errx()`:**
 
 - Useful for fatal errors where continuing execution is pointless.
 - Example:
@@ -83,7 +83,7 @@ int main() {
 }
 ```
 
-**2. warnx():**
+**2. `warnx()`:**
 
 - Used for non-fatal errors where recovery or continued execution is possible.
 - Example:
@@ -105,9 +105,9 @@ int main() {
 
 - **Conciseness:** They simplify error handling compared to custom error messages with `printf()`.
 - **Clarity:** They provide informative messages directly in the function call.
-- **Control:** They offer direct control over program termination (errx()) or continuation (warnx()).
+- **Control:** They offer direct control over program termination (`errx()`) or continuation (`warnx()`).
 
-**Comparison with perror():**
+**Comparison with `perror()`:**
 
 - `perror()` combines the user-provided message with the system error message obtained from `errno`.
 - `errx()` and `warnx()` allow custom error messages without relying on `errno`. This can be useful when the error isn't directly related to a system call.

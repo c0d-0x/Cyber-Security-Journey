@@ -1,1 +1,0 @@
-![[I. User privileges]]![[II. Bash-scripting]]

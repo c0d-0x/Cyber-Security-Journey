@@ -1,4 +1,4 @@
-An operating system (OS) is a complex piece of software that acts as the intermediary between a computer's hardware and its applications. Imagine it as a highly skilled translator who speaks both the hardware's language (machine code) and the applications' language (high-level programming languages).
+![[Screenshot_2024-01-12-12-07-45_27084.png]]An operating system (OS) is a complex piece of software that acts as the intermediary between a computer's hardware and its applications. Imagine it as a highly skilled translator who speaks both the hardware's language (machine code) and the applications' language (high-level programming languages).
 
 #### A breakdown of the OS's low-level workings:
 
@@ -19,14 +19,15 @@ An operating system (OS) is a complex piece of software that acts as the interme
 
 ![[Pasted image 20240131122901.png]]
 
-![[Pasted image 20240112122514.png]]
-
+![[Screenshot_2024-01-12-12-07-45_27084.png]]
+![[Screenshot_2024-01-12-12-25-00_17527.png]]
 
 ### Program Runtime
 
-![[Pasted image 20240112124541.png]]
+![[Screenshot_2024-01-12-12-44-56_170.png]]
 
-![[Pasted image 20240112124801.png]]
+![[Screenshot_2024-01-12-12-47-41_2836.png]]
+
 
 ## Four Fundamental Concepts of an OS
 ###  a. Threads: Execution Context
@@ -35,10 +36,8 @@ An operating system (OS) is a complex piece of software that acts as the interme
 - **Lightweight processes:** They share the same memory space and resources as the parent process, making them less resource-intensive than creating separate processes.
 - **Concurrent execution:** The operating system can schedule threads to run seemingly simultaneously, improving responsiveness and performance.
 
-![[Pasted image 20240112125721.png]]
-![[Pasted image 20240112130722.png]]
-
-![[Pasted image 20240114093005.png]]
+![[Screenshot_2024-01-12-12-56-56_820.png]]
+![[Screenshot_2024-01-12-13-06-40_9868.png]]
 
 ### **Pthreads (POSIX Threads):**
 
@@ -109,7 +108,7 @@ int main() {
 - Properly manage thread synchronization to avoid race conditions when accessing shared data.
 
     
-#### **pthread _exit():**
+#### **pthread_exit():**
 - Terminates the calling thread.
 - Allows a thread to exit independently of the main thread or other threads in the process.
 - Optionally returns a value that can be retrieved by another thread using `pthread_join()`
@@ -166,7 +165,7 @@ int main() {
 - Use `pthread_join()` to ensure proper resource cleanup and avoid potential memory leaks.
 #### pthread_join():
 
-![[Pasted image 20240114105859.png]]
+![[Screenshot_2024-01-14-10-58-42_19667.png]]
 
 - Waits for the specified thread to terminate.
 - Synchronises threads by blocking the calling thread until the target thread finishes.
@@ -201,11 +200,7 @@ int pthread_join(pthread_t thread, void **retval);
 - If a thread is not joined, its resources might not be released until the entire process terminates.
 - Joining a thread guarantees that its return value is retrieved.
 - Consider using `pthread_detach()` for threads that don't require synchronisation or return values.
-    
-![[Pasted image 20240114112530.png]]
-
-![[Pasted image 20240114112700.png]]
-
+![[Screenshot_2024-01-14-11-08-04_16208.png]]
 #### **Mutexes (Mutual Exclusion Locks):**
 
 - Mechanisms to ensure that only one thread can access a shared resource or critical section of code at a time.
@@ -331,7 +326,7 @@ int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr)
 
 ### b. Address Spaces
 + A set of memory addresses accessible to a program with  read or write permissions
-![[Pasted image 20240112132354.png]]
+![[Screenshot_2024-01-12-13-23-09_25723.png]]
 #### Memory Protection
 
 +  Memory protection is a mechanism that controls how processes (running programs) can access memory in a computer.
@@ -342,14 +337,14 @@ int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr)
     
 ##### Some Basic forms of memory protection
 + B&B ii base on hardware feature; using hardware to set the base and the bound of a memory space.
-	![[Pasted image 20240112133746.png]]
+	![[Screenshot_2024-01-12-13-36-55_26596.png]]
 
 + Hardware Relocation
-	![[Pasted image 20240112134338.png]]
+	![[Screenshot_2024-01-12-13-42-48_12335.png]]
 
-	![[Pasted image 20240112151155.png]]
+	![[Screenshot_2024-01-12-15-10-58_28732.png]]
 
-	![[Pasted image 20240114083025.png]]
+	
 
 ### c. Processes 
 #### What is a Process?
@@ -506,16 +501,16 @@ I'd be glad to explain the `exec` family of functions in C in depth:
 - Explore header files like `<unistd.h>`, `<sys/wait.h>`, and `<signal.h>` for more process-related functions.
 - Consider using libraries like pthreads for multi-threading within a process.
 
-![[Pasted image 20240112152110.png]]
+![[Screenshot_2024-01-12-15-20-44_27707.png]]
 ### Dual Mode Operations
 + User Mode
 + Kernel Mode
 #### Example: Unix, monolithic Kernel based 
 
-![[Pasted image 20240112152432.png]]
+![[Screenshot_2024-01-12-15-24-11_30330.png]]
 
-![[Pasted image 20240112152758.png]]
+![[Screenshot_2024-01-12-15-27-31_5886.png]]
 
-![[Pasted image 20240112153302.png]]
+![[Screenshot_2024-01-12-15-32-38_31684.png]]
 
-![[Pasted image 20240114093952.png]]
+![[Screenshot_2024-01-14-09-39-37_18418.png]]

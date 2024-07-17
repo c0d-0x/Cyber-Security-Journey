@@ -1,30 +1,30 @@
-+ Buffered and unbuffer file io
+![[Screenshot_2024-01-11-09-27-03_6294.png]]+ Buffered and unbuffer file io
 ## Open():
 
-![[Pasted image 20240111092733.png]]
+![[Screenshot_2024-01-11-09-27-03_6294.png]]
 
 ## Write():
 
-![[Pasted image 20240111093123.png]]
+![[Screenshot_2024-01-11-09-30-44_1631.png]]
 
 ## Read(): 
 
-![[Pasted image 20240111093331.png]]
+![[Screenshot_2024-01-11-09-32-58_22218.png]]
 
 ## Standard library IO (from `stdio.h`)
 ### fopen() returns to a file descriptor of type FILE*.  
 
-![[Pasted image 20240111101736.png]]
+![[Screenshot_2024-01-11-10-15-24_16579.png]]
 
 ### fwrite()
 
-![[Pasted image 20240111102110.png]]
+![[Screenshot_2024-01-11-10-20-29_196.png]]
 
 ### fread():
 
-![[Pasted image 20240111102252.png]]
+![[Screenshot_2024-01-11-10-22-18_17759.png]]
 
 ### Differences Low-level IO and Standard library IO
-![[Pasted image 20240111102443.png]]
+![[Screenshot_2024-01-11-10-24-18_10583.png]]
 
-![[Pasted image 20240111104614.png]]
+![[Screenshot_2024-01-11-10-45-54_22122.png]]
