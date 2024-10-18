@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9de4aba3cb740c2d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "9a7774110c14fb91",
             "type": "leaf",
             "state": {
@@ -77,16 +67,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
+                "file": "Systems Programming/Operating Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "I. User privileges"
+              "title": "Operating Systems"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -158,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
+                "file": "Systems Programming/Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for I. User privileges"
+              "title": "Backlinks for Operating Systems"
             }
           },
           {
@@ -177,12 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
+                "file": "Systems Programming/Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from I. User privileges"
+              "title": "Outgoing links from Operating Systems"
             }
           },
           {
@@ -204,10 +194,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md"
+                "file": "Systems Programming/Operating Systems.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of I. User privileges"
+              "title": "Outline of Operating Systems"
             }
           }
         ]
@@ -230,31 +220,31 @@
   },
   "active": "8f8af5b40a31d2e8",
   "lastOpenFiles": [
-    "Practical Ethical Hacking (TCM)/Linux Notes/II. Bash-scripting.md",
-    "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
     "Systems Programming/Sub-Topics/Compilers/Compilers.md",
-    "Systems Programming/Sub-Topics/cruxfilemond/fanotify API.md",
-    "Systems Programming/Sub-Topics/cruxfilemond/File IO Multiplexing.md",
-    "Systems Programming/Sub-Topics/Common C Libraries.md",
+    "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
+    "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206141242.png",
     "Systems Programming/Sub-Topics/Error Handling.md",
-    "Systems Programming/Sub-Topics/File IO.md",
-    "Systems Programming/Sub-Topics/Unified Modelling Language (UML).md",
     "Systems Programming/Operating Systems.md",
+    "Systems Programming/Sub-Topics/Unified Modelling Language (UML).md",
+    "Systems Programming/Sub-Topics/File IO.md",
+    "Systems Programming/Sub-Topics/ELF FILES.md",
+    "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
+    "Practical Ethical Hacking (TCM)/Linux Notes/II. Bash-scripting.md",
+    "Systems Programming/Sub-Topics/Useful Kernel APIs/fanotify API.md",
+    "Systems Programming/Sub-Topics/Useful Kernel APIs/File IO Multiplexing.md",
+    "Systems Programming/Sub-Topics/Common C Libraries.md",
     "Chatgpt.md",
     "Systems Programming/Sub-Topics/Compilers",
-    "Systems Programming/Sub-Topics/ELF FILES.md",
     "Systems Programming/Images/Pasted image 20240720144009.png",
     "Systems Programming/Images/Pasted image 20240720144722.png",
     "Systems Programming/Images/Pasted image 20240720145440.png",
     "Systems Programming/Images/Pasted image 20240720145422.png",
-    "Systems Programming/Sub-Topics/cruxfilemond",
+    "Systems Programming/Sub-Topics/Useful Kernel APIs",
     "Systems Programming/Images/Pasted image 20240712154416.png",
     "Systems Programming/Images/Pasted image 20240712153640.png",
     "Systems Programming/Images/Screenshot_2024-01-14-11-26-44_19885.png",
     "Systems Programming/Images/Screenshot_2024-01-14-11-24-17_9618.png",
     "Systems Programming/Images/Screenshot_2024-01-14-11-24-11_5005.png",
-    "Systems Programming/Images/Screenshot_2024-01-14-11-24-04_19322.png",
-    "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
     "Practical Ethical Hacking (TCM)/II. Linux.md",
     "Practical Ethical Hacking (TCM)/I. Networking Refresher.md",
     "Practical Ethical Hacking (TCM)/0. Introduction.md",
@@ -274,7 +264,6 @@
     "Systems Programming/Images",
     "Systems Programming/Sub-Topics/Error Handling",
     "Systems Programming/Sub-Topics",
-    "Practical Ethical Hacking (TCM)/Boxes/Boxes.md",
-    "www.hunter.oi.md"
+    "Practical Ethical Hacking (TCM)/Boxes/Boxes.md"
   ]
 }
