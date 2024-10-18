@@ -12,7 +12,9 @@
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -24,7 +26,9 @@
                 "file": "Systems Programming/Sub-Topics/Error Handling.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Error Handling"
             }
           },
           {
@@ -34,7 +38,9 @@
               "type": "image",
               "state": {
                 "file": "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206141242.png"
-              }
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240206141242"
             }
           },
           {
@@ -46,7 +52,9 @@
                 "file": "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "IV. Recognisance"
             }
           },
           {
@@ -55,10 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Systems Programming/Sub-Topics/Compilers/Compilers.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Compilers"
             }
           },
           {
@@ -67,14 +77,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Programming/Sub-Topics/Common C Libraries.md",
+                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "I. User privileges"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -109,7 +123,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -117,14 +133,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 200
   },
   "right": {
     "id": "c0364ffc3427b48e",
@@ -140,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +166,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for I. User privileges"
             }
           },
           {
@@ -157,10 +177,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from I. User privileges"
             }
           },
           {
@@ -171,7 +193,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -180,8 +204,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Systems Programming/Operating Systems.md"
-              }
+                "file": "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of I. User privileges"
             }
           }
         ]
@@ -202,26 +228,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62f5af6c571f2a20",
+  "active": "8f8af5b40a31d2e8",
   "lastOpenFiles": [
-    "Systems Programming/Sub-Topics/Unified Modelling Language (UML).md",
-    "Systems Programming/Sub-Topics/File IO.md",
-    "Systems Programming/Sub-Topics/cruxfilemond/File IO Multiplexing.md",
-    "Systems Programming/Sub-Topics/cruxfilemond",
+    "Practical Ethical Hacking (TCM)/Linux Notes/II. Bash-scripting.md",
+    "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
+    "Systems Programming/Sub-Topics/Compilers/Compilers.md",
     "Systems Programming/Sub-Topics/cruxfilemond/fanotify API.md",
+    "Systems Programming/Sub-Topics/cruxfilemond/File IO Multiplexing.md",
+    "Systems Programming/Sub-Topics/Common C Libraries.md",
+    "Systems Programming/Sub-Topics/Error Handling.md",
+    "Systems Programming/Sub-Topics/File IO.md",
+    "Systems Programming/Sub-Topics/Unified Modelling Language (UML).md",
+    "Systems Programming/Operating Systems.md",
+    "Chatgpt.md",
+    "Systems Programming/Sub-Topics/Compilers",
+    "Systems Programming/Sub-Topics/ELF FILES.md",
+    "Systems Programming/Images/Pasted image 20240720144009.png",
+    "Systems Programming/Images/Pasted image 20240720144722.png",
+    "Systems Programming/Images/Pasted image 20240720145440.png",
+    "Systems Programming/Images/Pasted image 20240720145422.png",
+    "Systems Programming/Sub-Topics/cruxfilemond",
     "Systems Programming/Images/Pasted image 20240712154416.png",
     "Systems Programming/Images/Pasted image 20240712153640.png",
-    "Systems Programming/Operating Systems.md",
     "Systems Programming/Images/Screenshot_2024-01-14-11-26-44_19885.png",
     "Systems Programming/Images/Screenshot_2024-01-14-11-24-17_9618.png",
     "Systems Programming/Images/Screenshot_2024-01-14-11-24-11_5005.png",
     "Systems Programming/Images/Screenshot_2024-01-14-11-24-04_19322.png",
-    "Systems Programming/Images/Screenshot_2024-01-14-11-08-04_16208.png",
-    "Systems Programming/Images/Screenshot_2024-01-14-10-58-42_19667.png",
-    "Systems Programming/Images/Screenshot_2024-01-14-09-39-37_18418.png",
-    "Systems Programming/Images/Screenshot_2024-01-14-09-38-07_25485.png",
-    "Systems Programming/Sub-Topics/Error Handling.md",
-    "Systems Programming/Sub-Topics/Common C Libraries.md",
     "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
     "Practical Ethical Hacking (TCM)/II. Linux.md",
     "Practical Ethical Hacking (TCM)/I. Networking Refresher.md",
@@ -233,21 +265,16 @@
     "Practical Ethical Hacking (TCM)/Subtitles/Keywords.md",
     "Practical Ethical Hacking (TCM)/Subtitles/Future Projects.md",
     "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
-    "Untitled.md",
     "Recording 20240131123301.webm",
     "Recording 20240131123255.webm",
     "Recording 20240131123232.webm",
     "Recording 20240131123250.webm",
-    "Practical Ethical Hacking (TCM)/Linux Notes/II. Bash-scripting.md",
     "Practical Ethical Hacking (TCM)/Python/Data Types.md",
     "Practical Ethical Hacking (TCM)/Python/Object Oriented Programming.md",
-    "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
     "Systems Programming/Images",
     "Systems Programming/Sub-Topics/Error Handling",
     "Systems Programming/Sub-Topics",
-    "Systems Programming",
     "Practical Ethical Hacking (TCM)/Boxes/Boxes.md",
-    "www.hunter.oi.md",
-    "hunter.oi.md"
+    "www.hunter.oi.md"
   ]
 }

@@ -380,7 +380,7 @@ int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t  *attr)
 - **Termination:** A process can terminate voluntarily or due to an error. The operating system releases its resources and cleans up.
 
 **Importance of Processes:**
-
+if (pthread_create(&thread, NULL, m
 - **Multitasking:** Processes enable multiple programs to run simultaneously, improving system responsiveness and resource utilisation.
 - **Modularity:** Processes provide a way to structure programs into independent units, promoting code maintainability and re-usability.
 - **Protection:** Process isolation safeguards system integrity and prevents errors in one process from affecting others.

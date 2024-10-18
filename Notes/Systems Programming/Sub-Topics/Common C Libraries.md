@@ -10,8 +10,7 @@
 
 6. #include<ctype.h>(Character type header) Perform character type functions like isaplha() and isdigit(). To find whether the given character is an alphabet or a digit respectively.
 
-7. #include<time.h>(Time header) 
-Perform functions related to date and time like setdate() and getdate(). To modify the system date and get the CPU time respectively.
+7. #include<time.h>(Time header) Perform functions related to date and time like setdate() and getdate(). To modify the system date and get the CPU time respectively.
 
 8. #include<assert.h> (Assertion header) It is used in program assertion functions like assert(). To get an integer data type in C/C++ as a parameter which prints stderr only if the parameter passed is 0.
 
