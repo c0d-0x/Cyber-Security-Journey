@@ -22,33 +22,35 @@
             }
           },
           {
-            "id": "dd4c3d0a6b9201e8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206141242.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240206141242"
-            }
-          },
-          {
             "id": "70076b8ce59f5626",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
+                "file": "Learning Ethical Hacking/HTB/nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IV. Recognisance"
+              "title": "nmap"
             }
           },
           {
-            "id": "62f5af6c571f2a20",
+            "id": "0af720333f6f2aa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning Ethical Hacking/HTB/nmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nmap"
+            }
+          },
+          {
+            "id": "8f8af5b40a31d2e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,21 +64,35 @@
             }
           },
           {
-            "id": "8f8af5b40a31d2e8",
+            "id": "9d9ba3f93ebc0386",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Programming/Operating Systems.md",
+                "file": "Systems Programming/Sub-Topics/Compilers/Lexical Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operating Systems"
+              "title": "Lexical Analysis"
+            }
+          },
+          {
+            "id": "fb7104b589d1d663",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Systems Programming/Sub-Topics/Common C Libraries.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Common C Libraries"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 202.5
   },
   "right": {
     "id": "c0364ffc3427b48e",
@@ -209,6 +225,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -218,21 +235,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f8af5b40a31d2e8",
+  "active": "70076b8ce59f5626",
   "lastOpenFiles": [
     "Systems Programming/Sub-Topics/Compilers/Compilers.md",
-    "Practical Ethical Hacking (TCM)/IV. Recognisance.md",
-    "Practical Ethical Hacking (TCM)/Images/Pasted image 20240206141242.png",
-    "Systems Programming/Sub-Topics/Error Handling.md",
+    "Learning Ethical Hacking/HTB/nmap.md",
+    "Learning Ethical Hacking/HTB/Most Common Protocols.md",
+    "Learning Ethical Hacking/HTB/HTB-NOTES.md",
+    "Learning Ethical Hacking/HTB/Network Enumeration",
     "Systems Programming/Operating Systems.md",
-    "Systems Programming/Sub-Topics/Unified Modelling Language (UML).md",
-    "Systems Programming/Sub-Topics/File IO.md",
+    "Learning Ethical Hacking/HTB",
     "Systems Programming/Sub-Topics/ELF FILES.md",
-    "Practical Ethical Hacking (TCM)/Linux Notes/I. User privileges.md",
-    "Practical Ethical Hacking (TCM)/Linux Notes/II. Bash-scripting.md",
-    "Systems Programming/Sub-Topics/Useful Kernel APIs/fanotify API.md",
-    "Systems Programming/Sub-Topics/Useful Kernel APIs/File IO Multiplexing.md",
+    "Systems Programming/Sub-Topics/Error Handling.md",
+    "Systems Programming/Sub-Topics/File IO.md",
+    "Systems Programming/Sub-Topics/Socket Programming.md",
+    "Learning Ethical Hacking/III. Python.md",
+    "Systems Programming/Sub-Topics/Unified Modelling Language (UML).md",
+    "Learning Ethical Hacking/IV. Recognisance.md",
+    "Learning Ethical Hacking/Images/Pasted image 20240206141242.png",
+    "Systems Programming/Sub-Topics/Compilers/Lexical Analysis.md",
     "Systems Programming/Sub-Topics/Common C Libraries.md",
+    "Systems Programming/Sub-Topics/Useful Kernel APIs/File IO Multiplexing.md",
+    "Systems Programming/Sub-Topics/Useful Kernel APIs/fanotify API.md",
+    "Systems Programming/Sub-Topics/Compilers/Regular Expressions.md",
+    "tran.md",
+    "Learning Ethical Hacking/Linux Notes/Random Videos",
+    "Learning Ethical Hacking/Linux Notes/I. User privileges.md",
+    "Learning Ethical Hacking/Linux Notes/II. Bash-scripting.md",
     "Chatgpt.md",
     "Systems Programming/Sub-Topics/Compilers",
     "Systems Programming/Images/Pasted image 20240720144009.png",
@@ -246,24 +274,13 @@
     "Systems Programming/Images/Screenshot_2024-01-14-11-24-17_9618.png",
     "Systems Programming/Images/Screenshot_2024-01-14-11-24-11_5005.png",
     "Practical Ethical Hacking (TCM)/II. Linux.md",
-    "Practical Ethical Hacking (TCM)/I. Networking Refresher.md",
-    "Practical Ethical Hacking (TCM)/0. Introduction.md",
+    "Learning Ethical Hacking/I. Networking Refresher.md",
+    "Learning Ethical Hacking/0. Introduction.md",
     "Systems Programming/Sub-Topics/Linux Systems Programming.md",
-    "Practical Ethical Hacking (TCM)/III. Python.md",
-    "Practical Ethical Hacking (TCM)/Boxes/B0X-Blue.md",
     "Systems Programming/C For Everybody",
-    "Practical Ethical Hacking (TCM)/Subtitles/Keywords.md",
-    "Practical Ethical Hacking (TCM)/Subtitles/Future Projects.md",
-    "Practical Ethical Hacking (TCM)/Boxes/Kioptrix-notes.md",
     "Recording 20240131123301.webm",
     "Recording 20240131123255.webm",
     "Recording 20240131123232.webm",
-    "Recording 20240131123250.webm",
-    "Practical Ethical Hacking (TCM)/Python/Data Types.md",
-    "Practical Ethical Hacking (TCM)/Python/Object Oriented Programming.md",
-    "Systems Programming/Images",
-    "Systems Programming/Sub-Topics/Error Handling",
-    "Systems Programming/Sub-Topics",
-    "Practical Ethical Hacking (TCM)/Boxes/Boxes.md"
+    "Recording 20240131123250.webm"
   ]
 }

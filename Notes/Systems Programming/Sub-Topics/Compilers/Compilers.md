@@ -48,8 +48,7 @@ The process of compilation is typically divided into **two parts**:
     - **Task**: Converts the intermediate code into target machine code (assembly or binary instructions specific to a hardware architecture, such as x86, ARM, etc.).
     - **Output**: Machine code.
 7. **Code Linking and Loading**
-    
-    - **Input**: Machine code.
+	- **Input**: Machine code.
     - **Task**: Combines machine code with libraries and other necessary object code (linking). Loads the code into memory for execution.
 
 ### Blueprint of a Compiler
